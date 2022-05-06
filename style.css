@@ -108,7 +108,7 @@ div {
     1px 1px 0 white,
     -1px 1px 0 white;
 } */
-div div img{
+div div img {
     border-radius: 50%;
     position:static;
     display: flex;
@@ -118,6 +118,41 @@ div div img{
     padding: 50px;
     
 }
+@media (max-width: 800px) {
+        div div img {
+            display: flex;
+            width: 100px;
+            height: 100px;
+        }
+        div div h1 {
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .title {
+            font-size: 10px;
+            font-weight: 100;
+        }
+        .title1 {
+            font-size: 30px;
+            font-weight: 100;
+        }
+        footer{
+
+            margin-top: 3px;
+            margin-bottom: 3px;
+            padding: 2px;
+        }
+        footer ul li img {
+            height: 3px;
+            width: 5px;
+            font-size: 10px;
+            line-height: 10px;
+            margin: 1px 1px ;
+
+        }
+       
+}
+
 
     
 
@@ -141,7 +176,7 @@ footer{
 
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 30pxs;
+    padding: 30px;
 }
     
 
@@ -221,6 +256,21 @@ section ul li a:hover {
     font-weight: bold;
 }
 
+@media (max-width: 800px) {
+    .p2 {
+        font-size: 2px;
+        line-height: 1px;
+        text-decoration: none;
+    }
+    section ul li img {
+        height: 60px;
+        width: 80px;
+
+    }
+
+
+
+}
 
 
 
