@@ -129,7 +129,7 @@ div div img {
             font-weight: 400;
         }
         .title {
-            font-size: 10px;
+            font-size: 30px;
             font-weight: 100;
         }
         .title1 {
@@ -258,12 +258,12 @@ section ul li a:hover {
 
 @media (max-width: 800px) {
     .p2 {
-        font-size: 2px;
+        font-size: 20px;
         line-height: 1px;
         text-decoration: none;
     }
     section ul li img {
-        height: 60px;
+        height: 80px;
         width: 80px;
 
     }
