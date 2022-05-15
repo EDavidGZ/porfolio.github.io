@@ -120,14 +120,17 @@ div div img {
 }
 @media (max-width: 800px) {
         div div img {
-            display: flex;
-            width: 100px;
-            height: 100px;
+            width: 50%;
+            height: 50%;
         }
         div div h1 {
-            font-size: 30px;
+            font-size: 50px;
             font-weight: 400;
+            padding: 0%;
+            margin: 0%;
+            padding-top: 50px;
         }
+
         .title {
             font-size: 30px;
             font-weight: 100;
@@ -152,8 +155,19 @@ div div img {
         }
        
 }
-
-
+@media (max-width: 550px) {
+    div div img {
+        width: 0%;
+        height: 0px;
+    }
+    section ul li img {
+        display: inline;
+        height: 00px;
+        width: 50px;
+        padding: 0%;
+        margin: 0%;
+    }
+}
     
 
 .p {
@@ -262,14 +276,25 @@ section ul li a:hover {
         line-height: 1px;
         text-decoration: none;
     }
-    section ul li img {
-        height: 80px;
-        width: 80px;
-
+    section ul {
+        display:contents;
+        text-align: center;
+        justify-content: center;
+       
+        
     }
-
-
-
+    section ul li img {
+        display: inline;
+        height: 250px;
+        width: 250px;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    footer ul li img {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 
